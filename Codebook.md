@@ -44,12 +44,12 @@ Listed below are the transformations applied to the source data:
    containing mean and std were extracted into the subset.
 3. The activity lables were replaced with the name of the activity.
 4. The variable names were replaced with descriptive lables using the following set of rules:
-      a. "t" was replaced with "time"
-      b. "f" was replaced with "frequency"
-      c. "Acc" was replaced with "Accelerometer"
-      d. "Gyro" was replaced with "Gyroscope"
-      e. "Mag" was replaced with "Magnitude""
-      f. "BodyBody" was replaced with "Body"
+      - "t" was replaced with "time"
+      - "f" was replaced with "frequency"
+      - "Acc" was replaced with "Accelerometer"
+      - "Gyro" was replaced with "Gyroscope"
+      - "Mag" was replaced with "Magnitude""
+      - "BodyBody" was replaced with "Body"
 5. The final data set was created with the mean and standard deviation for each activity on each subject.
 
 Downloading the data and the transformations were implemented using the script "run_analysis.R".

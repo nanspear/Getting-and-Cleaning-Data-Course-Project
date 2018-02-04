@@ -16,4 +16,4 @@ The R script, "run_analysis.R" does the following:
 9.  Extract measurements on mean and standard deviation
 10. Labels data set with descriptive variable names
 11. Create a tidy data set and output file
-12. The name of output file is "tidy.txt".
+12. The name of output file is "tidydata.txt".
