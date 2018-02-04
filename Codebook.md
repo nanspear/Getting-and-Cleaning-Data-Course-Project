@@ -1,5 +1,5 @@
-Cleaning and Getting Data Course Project
-Codebook
+Project Codebook for Cleaning and Getting Data Course Assignment
+=================================================
 
 Thirty volunteers between the ages of 19-48 performed six different activities. These activities were recorded using a Samsung Galaxy 5 II on their waist.  Three axial linear acceleration and three axial angular velocity were captured at a constant rate of 50Hz. The recorded dataset was randomly split into two sets, 70% of the volunteers were selected for generating the training data and 30% of the volunteers were selected for the test data.
 
@@ -23,23 +23,14 @@ Activities performed by the volunteers (Subjects)
 
 The following files were used:
 ====================================
-Subject Files
--Subject_test - Each row identifies the test subjects who performed the activity for each window sample.
--Subject_train - Each row identifies the train subjects who performed the activity for each window sample.
-
-Activity File
--Activity_Lables - Links the class labels with their activity name.
-
-Feature File
--features.txt - List of all 561 features.
-
-Test Files
--X_test - Test set
--y_test - Test labels
-
-Train Files
--X_train - Training set
--y_train - Training labels
+1. Subject_test: Each row identifies the test subjects who performed the activity for each window sample.
+2. Subject_train: Each row identifies the train subjects who performed the activity for each window sample.
+3. Activity_Lables: Links the class labels with their activity name.
+4. features.txt: List of all 561 features.
+5. X_test: Test data
+6. y_test: Test labels
+7. X_train: Training data
+8. y_train - Training labels
 
 
 Transformations
@@ -53,12 +44,12 @@ Listed below are the transformations applied to the source data:
    containing mean and std were extracted into the subset.
 3. The activity lables were replaced with the name of the activity.
 4. The variable names were replaced with descriptive lables using the following set of rules:
-      *"t" was replaced with "time"
-      *"f" was replaced with "frequency"
-      *"Acc" was replaced with "Accelerometer"
-      *"Gyro" was replaced with "Gyroscope"
-      *"Mag" was replaced with "Magnitude""
-      *"BodyBody" was replaced with "Body"
+      a. "t" was replaced with "time"
+      b. "f" was replaced with "frequency"
+      c. "Acc" was replaced with "Accelerometer"
+      d. "Gyro" was replaced with "Gyroscope"
+      e. "Mag" was replaced with "Magnitude""
+      f. "BodyBody" was replaced with "Body"
 5. The final data set was created with the mean and standard deviation for each activity on each subject.
 
 Downloading the data and the transformations were implemented using the script "run_analysis.R".
